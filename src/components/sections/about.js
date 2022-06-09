@@ -154,7 +154,7 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege to attend and graduate from{' '}
-              <a href="https://www.lighthouselabs.ca">Lighthouse Labs</a> as a Web Developer
+              <a href="https://www.lighthouselabs.ca">Lighthouse Labs</a> as a Web Developer.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
