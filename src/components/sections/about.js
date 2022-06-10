@@ -142,9 +142,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Kevin and before I got to Web Development, I was working in the
+              Hello! My name is Kevin and before I got into Web Development, I was working in the
               construction industry. I knew that this wasn't something I wanted to continue into the
-              future especially on the wear it does to the body. I gotten in contact with some
+              future especially on the wear it does to the body. I've got in contact with some
               friends in different industries, one which was a Web Developer, who showed me what he
               does and and HOW he does it. The things that can be accomplished with endless
               possibilities was which sparked my interest and curiosity.
