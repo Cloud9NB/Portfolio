@@ -67,8 +67,8 @@ const Hero = () => {
         I’m a Vancouver-based Full Stack Developer who is jumping into technology from an interest
         in web design. With an analytical mindset and a desire to learn, I have a strong drive to
         think creatively as well as problem solve and start from scratch with a wide range of skill
-        sets. Currently, I am looking for career opportunities that allows me to expand my creative
-        mind.
+        sets. Currently, I am looking for career opportunities that will allow me to expand my
+        creative mind.
       </p>
     </>
   );
