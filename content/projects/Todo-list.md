@@ -2,7 +2,7 @@
 date: '2022-07-31'
 title: 'Todo-List'
 github: 'https://github.com/Cloud9NB/Piggy-Financial'
-# external: ''
+external: 'https://kevin-todo-list.herokuapp.com/'
 tech:
   - React.js
   - Javascript
