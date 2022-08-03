@@ -2,7 +2,7 @@
 date: '2022-03-31'
 title: 'Tweeter'
 github: 'https://github.com/Cloud9NB/tweeter'
-external: ''
+external: 'https://spa-twitter-clone.herokuapp.com/'
 tech:
   - Express.js
   - CSS
