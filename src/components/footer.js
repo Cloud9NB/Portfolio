@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { /*useState,*/ useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
+import axios from 'axios';
 
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -68,24 +69,33 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => {
-  const [, /*githubInfo*/ setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
-  });
-
+  // const [, /*githubInfo*/ setGitHubInfo] = useState({
+  //   stars: null,
+  //   forks: null,
+  // });
+  // require('dotenv').config();
   useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
-    fetch('https://api.github.com/repos/bchiang7/v4')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
+    const websiteVisits = response => {
+      document.querySelector('#visits').textContent = response.value;
+    };
+
+    const pageViewCounter =
+      'https://api.countapi.xyz/hit/kevin-k-lee.com/a8ac9709-6eaa-44c6-994f-ef19e44bf4ed';
+    axios
+      .get(pageViewCounter)
+      .then(({ data }) => websiteVisits(data))
+      // if (process.env.NODE_ENV !== 'production') {
+      //   return;
+      // }
+      // fetch('https://api.github.com/repos/bchiang7/v4')
+      //   .then(response => response.json())
+      //   .then(json => {
+      //     const { stargazers_count, forks_count } = json;
+      //     setGitHubInfo({
+      //       stars: stargazers_count,
+      //       forks: forks_count,
+      //     });
+      //   })
       .catch(e => console.error(e));
   }, []);
 
@@ -105,6 +115,9 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
+        <div>
+          <span id="visits"></span> people has visited.
+        </div>
         {/* <a href="https://github.com/bchiang7/v4">
           <div>Designed &amp; Built by Brittany Chiang</div>
 
