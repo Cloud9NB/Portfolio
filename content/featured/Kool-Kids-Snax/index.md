@@ -3,7 +3,7 @@ date: '2022-04-15'
 title: 'Kool-Kids-Snax'
 cover: './demo.png'
 github: 'https://github.com/Cloud9NB/kool-kids-snax'
-# external: 'https://halcyon-theme.netlify.com/'
+external: 'http://kool-kids-snax.herokuapp.com/users/4'
 tech:
   - Express.js
   - EJS
