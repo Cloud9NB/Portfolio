@@ -3,7 +3,7 @@ date: '2022-04-27'
 title: 'Scheduler'
 cover: './demo.png'
 github: 'https://github.com/Cloud9NB/scheduler'
-# external: 'https://halcyon-theme.netlify.com/'
+external: 'https://scheduler-appointments.netlify.app/'
 tech:
   - React.js
   - Express.js
