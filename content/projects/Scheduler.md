@@ -1,7 +1,6 @@
 ---
 date: '2022-04-27'
 title: 'Scheduler'
-cover: './demo.png'
 github: 'https://github.com/Cloud9NB/scheduler'
 external: 'https://scheduler-appointments.netlify.app/'
 tech:
@@ -9,7 +8,7 @@ tech:
   - Express.js
   - Javascript
   - Cypress
-showInProjects: false
+showInProjects: true
 company: 'Lighthouse Labs'
 ---
 
