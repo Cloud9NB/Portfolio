@@ -126,13 +126,17 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)',
     'React',
-    'Python',
+    'React / React Toolkit',
+    'MongoDB',
+    'PostgreSQL',
+    'Firebase',
     'Express.js',
     'Node.js',
-    'PostgreSQL',
-    'HTML',
-    'CSS',
     'JQuery',
+    'Material UI',
+    'HTML5',
+    'CSS3',
+    'Bootstrap / React-Bootstrap',
   ];
 
   return (

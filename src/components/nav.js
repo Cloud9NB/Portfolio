@@ -175,7 +175,7 @@ const Nav = ({ isHome }) => {
   const ResumeLink = (
     <a
       className="resume-button"
-      href="/Kevin-K-Lee-Resume.pdf"
+      href="/Kevin_K_Lee_Resume.pdf"
       target="_blank"
       rel="noopener noreferrer">
       Resume

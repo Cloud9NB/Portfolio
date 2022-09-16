@@ -1,6 +1,6 @@
 ---
 date: '2022-07-13'
-title: 'Software Developer'
+title: 'Software Developer / Contract'
 company: 'InsureCert Systems Inc.'
 location: 'Vancouver, B.C.'
 range: 'July - Present 2022'

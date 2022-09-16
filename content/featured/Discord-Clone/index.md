@@ -9,7 +9,7 @@ tech:
   - React.js
   - Material-UI
   - Redux
-  - Redux.js/tool-kit
+  - Redux/tool-kit
   - Firebase
 showInProjects: false
 company: 'Personal Project'
