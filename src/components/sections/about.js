@@ -126,7 +126,7 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)',
     'React',
-    'React / React Toolkit',
+    'Redux / Redux Toolkit',
     'MongoDB',
     'PostgreSQL',
     'Firebase',
