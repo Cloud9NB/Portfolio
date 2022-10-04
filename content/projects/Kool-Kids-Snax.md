@@ -9,7 +9,7 @@ tech:
   - EJS
   - Javascript
   - PostgreSQL
-showInProjects: false
+showInProjects: true
 company: 'Lighthouse Labs'
 ---
 

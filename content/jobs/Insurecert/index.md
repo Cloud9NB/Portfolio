@@ -7,7 +7,7 @@ range: 'July - Present 2022'
 url: 'https://insurecert.ca'
 showInProjects: false
 tech:
-  - Python
+  -
 ---
 
 <!-- - Fullstack development - Python, Django, Angular, Svelte, Handlebars, jQuery.
